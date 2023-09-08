@@ -70,7 +70,6 @@ func (e *Exporter) Export(ctx context.Context, logs []sdk.ReadableLogRecord) err
 	e.encoderMu.Lock()
 	defer e.encoderMu.Unlock()
 	for _, lr := range logRecords {
-		// Encode span stubs, one by one
 		if err := e.encoder.Encode(lr); err != nil {
 			return err
 		}
@@ -95,8 +94,7 @@ func (e *Exporter) Shutdown(ctx context.Context) error {
 // MarshalLog is the marshaling function used by the logging system to represent this exporter.
 func (e *Exporter) MarshalLog() interface{} {
 	return struct {
-		Type           string
-		WithTimestamps bool
+		Type string
 	}{
 		Type: "stdout",
 	}

@@ -17,13 +17,14 @@ limitations under the License.
 package stdoutlogs
 
 import (
+	"time"
+
 	"github.com/kudarap/opentelemetry-logs-go/logs"
 	sdk "github.com/kudarap/opentelemetry-logs-go/sdk/logs"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/sdk/instrumentation"
 	"go.opentelemetry.io/otel/sdk/resource"
 	"go.opentelemetry.io/otel/trace"
-	"time"
 )
 
 // stdOutLogRecord is a stand-in for a LogRecord.
@@ -69,9 +70,7 @@ func (lr stdOutLogRecord) getSeverityText() string {
 }
 
 func logRecordsFromReadableLogRecords(logRecords []sdk.ReadableLogRecord) []stdOutLogRecord {
-
 	var result []stdOutLogRecord
-
 	for _, lr := range logRecords {
 		logRecord := stdOutLogRecord{
 			Timestamp:            lr.Timestamp(),

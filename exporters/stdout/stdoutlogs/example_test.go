@@ -18,13 +18,15 @@ package stdoutlogs
 
 import (
 	"context"
-	"github.com/kudarap/opentelemetry-logs-go"
+	"log"
+	"testing"
+	"time"
+
+	otel "github.com/kudarap/opentelemetry-logs-go"
 	"github.com/kudarap/opentelemetry-logs-go/logs"
 	sdk "github.com/kudarap/opentelemetry-logs-go/sdk/logs"
 	"go.opentelemetry.io/otel/sdk/resource"
 	semconv "go.opentelemetry.io/otel/semconv/v1.20.0"
-	"log"
-	"time"
 )
 
 const (
@@ -73,7 +75,7 @@ func installExportPipeline(ctx context.Context) (func(context.Context) error, er
 	return loggerProvider.Shutdown, nil
 }
 
-func Example() {
+func TestExample(t *testing.T) {
 	{
 		ctx := context.Background()
 		// Registers a logger Provider globally.
