@@ -17,9 +17,9 @@ limitations under the License.
 package otlplogs
 
 import (
-	"github.com/kudarap/opentelemetry-logs-go/exporters/otlp/otlplogs/internal/otlpconfig"
-	"github.com/kudarap/opentelemetry-logs-go/exporters/otlp/otlplogs/otlplogsgrpc"
-	"github.com/kudarap/opentelemetry-logs-go/exporters/otlp/otlplogs/otlplogshttp"
+	"github.com/dbdoyc/opentelemetry-logs-go/exporters/otlp/otlplogs/internal/otlpconfig"
+	"github.com/dbdoyc/opentelemetry-logs-go/exporters/otlp/otlplogs/otlplogsgrpc"
+	"github.com/dbdoyc/opentelemetry-logs-go/exporters/otlp/otlplogs/otlplogshttp"
 )
 
 type ExporterConfig struct {

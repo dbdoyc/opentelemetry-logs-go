@@ -19,8 +19,8 @@ package otlplogs
 import (
 	"context"
 	"errors"
-	"github.com/kudarap/opentelemetry-logs-go/exporters/otlp/otlplogs/internal/logstransform"
-	logssdk "github.com/kudarap/opentelemetry-logs-go/sdk/logs"
+	"github.com/dbdoyc/opentelemetry-logs-go/exporters/otlp/otlplogs/internal/logstransform"
+	logssdk "github.com/dbdoyc/opentelemetry-logs-go/sdk/logs"
 	"sync"
 )
 

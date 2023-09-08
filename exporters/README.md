@@ -9,8 +9,8 @@ The following exporter packages are provided with the following OpenTelemetry si
 
 | Exporter Package                                                   | Logs |
 |--------------------------------------------------------------------|------|
-| github.com/kudarap/opentelemetry-logs-go/exporters/otlp/otlplogs | ✓    |
-| github.com/kudarap/opentelemetry-logs-go/exporters/stdout        | ✓    |
+| github.com/dbdoyc/opentelemetry-logs-go/exporters/otlp/otlplogs | ✓    |
+| github.com/dbdoyc/opentelemetry-logs-go/exporters/stdout        | ✓    |
 
 ## OTLP Logs exporter
 

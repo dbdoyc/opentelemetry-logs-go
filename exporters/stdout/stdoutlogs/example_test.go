@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	otel "github.com/kudarap/opentelemetry-logs-go"
-	"github.com/kudarap/opentelemetry-logs-go/logs"
-	sdk "github.com/kudarap/opentelemetry-logs-go/sdk/logs"
+	otel "github.com/dbdoyc/opentelemetry-logs-go"
+	"github.com/dbdoyc/opentelemetry-logs-go/logs"
+	sdk "github.com/dbdoyc/opentelemetry-logs-go/sdk/logs"
 	"go.opentelemetry.io/otel/sdk/resource"
 	semconv "go.opentelemetry.io/otel/semconv/v1.20.0"
 )

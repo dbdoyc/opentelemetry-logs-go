@@ -17,7 +17,7 @@ limitations under the License.
 package logs
 
 import (
-	"github.com/kudarap/opentelemetry-logs-go/logs"
+	"github.com/dbdoyc/opentelemetry-logs-go/logs"
 	"github.com/stretchr/testify/assert"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/sdk/instrumentation"

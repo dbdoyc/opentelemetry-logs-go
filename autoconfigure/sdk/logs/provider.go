@@ -3,10 +3,10 @@ package logs
 import (
 	"context"
 	"errors"
-	"github.com/kudarap/opentelemetry-logs-go/exporters/otlp/otlplogs"
-	"github.com/kudarap/opentelemetry-logs-go/exporters/stdout/stdoutlogs"
-	"github.com/kudarap/opentelemetry-logs-go/internal/global"
-	sdk "github.com/kudarap/opentelemetry-logs-go/sdk/logs"
+	"github.com/dbdoyc/opentelemetry-logs-go/exporters/otlp/otlplogs"
+	"github.com/dbdoyc/opentelemetry-logs-go/exporters/stdout/stdoutlogs"
+	"github.com/dbdoyc/opentelemetry-logs-go/internal/global"
+	sdk "github.com/dbdoyc/opentelemetry-logs-go/sdk/logs"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/sdk/resource"
 )

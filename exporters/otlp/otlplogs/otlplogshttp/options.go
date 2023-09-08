@@ -18,8 +18,8 @@ package otlplogshttp
 
 import (
 	"crypto/tls"
-	"github.com/kudarap/opentelemetry-logs-go/exporters/otlp/otlplogs/internal/otlpconfig"
-	"github.com/kudarap/opentelemetry-logs-go/exporters/otlp/otlplogs/internal/retry"
+	"github.com/dbdoyc/opentelemetry-logs-go/exporters/otlp/otlplogs/internal/otlpconfig"
+	"github.com/dbdoyc/opentelemetry-logs-go/exporters/otlp/otlplogs/internal/retry"
 	"time"
 )
 

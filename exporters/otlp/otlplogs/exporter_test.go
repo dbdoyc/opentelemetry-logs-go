@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/kudarap/opentelemetry-logs-go/exporters/otlp/otlplogs"
-	"github.com/kudarap/opentelemetry-logs-go/sdk/logs/logstest"
+	"github.com/dbdoyc/opentelemetry-logs-go/exporters/otlp/otlplogs"
+	"github.com/dbdoyc/opentelemetry-logs-go/sdk/logs/logstest"
 	logspb "go.opentelemetry.io/proto/otlp/logs/v1"
 )
 

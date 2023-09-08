@@ -17,8 +17,8 @@ limitations under the License.
 package logstransform
 
 import (
-	logssdk "github.com/kudarap/opentelemetry-logs-go/sdk/logs"
-	"github.com/kudarap/opentelemetry-logs-go/sdk/logs/logstest"
+	logssdk "github.com/dbdoyc/opentelemetry-logs-go/sdk/logs"
+	"github.com/dbdoyc/opentelemetry-logs-go/sdk/logs/logstest"
 	"github.com/stretchr/testify/assert"
 	commonpb "go.opentelemetry.io/proto/otlp/common/v1"
 	logspb "go.opentelemetry.io/proto/otlp/logs/v1"

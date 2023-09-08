@@ -17,8 +17,8 @@ limitations under the License.
 package logs
 
 import (
-	"github.com/kudarap/opentelemetry-logs-go/logs"
-	"github.com/kudarap/opentelemetry-logs-go/semconv"
+	"github.com/dbdoyc/opentelemetry-logs-go/logs"
+	"github.com/dbdoyc/opentelemetry-logs-go/semconv"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/sdk/instrumentation"
 	"go.opentelemetry.io/otel/sdk/resource"

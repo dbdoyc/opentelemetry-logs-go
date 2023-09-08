@@ -2,9 +2,9 @@ package otlplogstest
 
 import (
 	"context"
-	"github.com/kudarap/opentelemetry-logs-go/exporters/otlp/otlplogs"
-	"github.com/kudarap/opentelemetry-logs-go/logs"
-	sdklogs "github.com/kudarap/opentelemetry-logs-go/sdk/logs"
+	"github.com/dbdoyc/opentelemetry-logs-go/exporters/otlp/otlplogs"
+	"github.com/dbdoyc/opentelemetry-logs-go/logs"
+	sdklogs "github.com/dbdoyc/opentelemetry-logs-go/sdk/logs"
 	"testing"
 	"time"
 

@@ -19,8 +19,8 @@ package stdoutlogs
 import (
 	"time"
 
-	"github.com/kudarap/opentelemetry-logs-go/logs"
-	sdk "github.com/kudarap/opentelemetry-logs-go/sdk/logs"
+	"github.com/dbdoyc/opentelemetry-logs-go/logs"
+	sdk "github.com/dbdoyc/opentelemetry-logs-go/sdk/logs"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/sdk/instrumentation"
 	"go.opentelemetry.io/otel/sdk/resource"

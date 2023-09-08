@@ -1,9 +1,9 @@
 package otlplogstest
 
 import (
-	"github.com/kudarap/opentelemetry-logs-go/logs"
-	logssdk "github.com/kudarap/opentelemetry-logs-go/sdk/logs"
-	"github.com/kudarap/opentelemetry-logs-go/sdk/logs/logstest"
+	"github.com/dbdoyc/opentelemetry-logs-go/logs"
+	logssdk "github.com/dbdoyc/opentelemetry-logs-go/sdk/logs"
+	"github.com/dbdoyc/opentelemetry-logs-go/sdk/logs/logstest"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/sdk/instrumentation"
 	"go.opentelemetry.io/otel/sdk/resource"

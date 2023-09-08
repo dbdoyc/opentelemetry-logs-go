@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kudarap/opentelemetry-logs-go/exporters/otlp/otlplogs/internal"
-	"github.com/kudarap/opentelemetry-logs-go/exporters/otlp/otlplogs/internal/otlpconfig"
-	"github.com/kudarap/opentelemetry-logs-go/exporters/otlp/otlplogs/internal/retry"
+	"github.com/dbdoyc/opentelemetry-logs-go/exporters/otlp/otlplogs/internal"
+	"github.com/dbdoyc/opentelemetry-logs-go/exporters/otlp/otlplogs/internal/otlpconfig"
+	"github.com/dbdoyc/opentelemetry-logs-go/exporters/otlp/otlplogs/internal/retry"
 
 	"go.opentelemetry.io/otel"
 	collogspb "go.opentelemetry.io/proto/otlp/collector/logs/v1"

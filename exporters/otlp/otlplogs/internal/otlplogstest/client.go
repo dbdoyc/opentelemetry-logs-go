@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kudarap/opentelemetry-logs-go/exporters/otlp/otlplogs"
+	"github.com/dbdoyc/opentelemetry-logs-go/exporters/otlp/otlplogs"
 )
 
 func RunExporterShutdownTest(t *testing.T, factory func() otlplogs.Client) {

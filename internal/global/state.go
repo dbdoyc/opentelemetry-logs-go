@@ -18,7 +18,7 @@ package global
 
 import (
 	"errors"
-	"github.com/kudarap/opentelemetry-logs-go/logs"
+	"github.com/dbdoyc/opentelemetry-logs-go/logs"
 	"sync"
 	"sync/atomic"
 )

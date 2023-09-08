@@ -17,7 +17,7 @@ limitations under the License.
 package otel
 
 import (
-	"github.com/kudarap/opentelemetry-logs-go/logs"
+	"github.com/dbdoyc/opentelemetry-logs-go/logs"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

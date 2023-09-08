@@ -1,6 +1,6 @@
-module github.com/kudarap/opentelemetry-logs-go
+module github.com/dbdoyc/opentelemetry-logs-go
 
-go 1.19
+go 1.21
 
 require (
 	github.com/cenkalti/backoff/v4 v4.2.1
